@@ -2,7 +2,7 @@ import sys, struct, SocketServer
 from odict import OrderedDict
 from datetime import datetime
 from calendar import timegm
-#1
+
 class Packet():
     fields = OrderedDict([
         ("data", ""),
